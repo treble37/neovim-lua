@@ -143,6 +143,12 @@ lazy.setup({
         "nvim-lua/plenary.nvim",
       },
     },
-
+    {
+      "mhinz/vim-mix-format",
+      init = function()
+        vim.g.mix_format_on_save = 1
+        vim.g.mix_format_silent_errors = 1
+      end,
+    },
   },
 })
