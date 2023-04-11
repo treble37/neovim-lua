@@ -150,5 +150,11 @@ lazy.setup({
         vim.g.mix_format_silent_errors = 1
       end,
     },
+    {
+      "junegunn/fzf.vim",
+      dependencies = {
+        "junegunn/fzf"
+      }
+    },
   },
 })
